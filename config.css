@@ -1,0 +1,12 @@
+body{
+    background-color:  black;
+    color:  lightgrey;
+}
+
+#confirmation{
+    display: none;
+}
+
+#confirm{
+    color: green;
+}

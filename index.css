@@ -1,0 +1,74 @@
+* {
+    font-family: 'Latitude-Regular';
+    src: url('Latitude-Regular.otf');
+}
+
+#bg {
+    margin-top: -40;
+    height: auto;
+    width: 300px;
+    position: absolute;
+}
+
+.mod {
+    height: auto;
+    width: 30px;
+    position: absolute;
+}
+
+.border {
+    height: auto;
+    width: 36px;
+    position: absolute;
+}
+
+/* #wrapper {
+    display: none;
+} */
+
+#followingdiv {
+    position: absolute;
+    max-width: 300px;
+    white-space: pre-line;
+    pointer-events: none;
+    visibility: visible;
+    background-color: White;
+    text-align: left;
+    padding: 5px 5px;
+    display: none;
+    z-index: 1;
+    border: 0.5px solid black;
+    font-family: 'Latitude-Regular';
+    src: url('Latitude-Regular.otf');
+}
+
+#show-hide {
+    margin-top: 46px;
+    margin-left: 35px;
+    top: 250px;
+    right: 200px;
+}
+
+#show-btn,
+#reload-btn {
+    display: none;
+}
+
+/* #hide-btn {
+    display: none;
+} */
+
+#weapon,
+#helm-bg,
+#amulet-bg,
+#bracer-bg,
+#ring1-bg,
+#ring2-bg,
+#belt-bg,
+#boots-bg,
+#relic-bg,
+#goblet-bg,
+#horn-bg,
+#trinket-bg {
+    display: none;
+}

@@ -1,0 +1,89 @@
+<html>
+
+<head>
+    <script src="https://extension-files.twitch.tv/helper/v1/twitch-ext.min.js"></script>
+    <script type="text/javascript" src="jquery-3.7.1.js"></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="show-hide">
+        <button id="show-btn">Display Armory</button>
+        <button id="hide-btn">Hide Armory</button>
+        <button id="reload-btn">Reload Armory</button>
+    </div>
+
+
+    <div id="wrapper">
+        <img id="bg" src="Character_Panel.png" alt="character panel" style="left: 42px;top: 120px;">
+
+        <img id="helm-bg" class="border" src="flawless-bg.PNG" alt="" style="left: 66px;top: 104px;">
+        <img id="helm-border" class="border" src="T_UI_Button_Frame_002.PNG" alt="" style="left: 66px;top: 104px;">
+        <img id="helm" class="mod" src="sil-helmet.PNG" alt="" style="left: 69px;top: 107px;">
+
+        <img id="chest-border" class="border" src="T_UI_Button_Frame_002.PNG" alt="" style="left: 66px;top: 160px;">
+        <img id="chest" class="mod" src="sil-chest.PNG" alt="" style="left: 69px;top: 163px;">
+
+        <img id="gloves-border" class="border" src="T_UI_Button_Frame_002.PNG" alt="" style="left: 66px;top: 216px;">
+        <img id="gloves" class="mod" src="sil-gloves.PNG" alt="" style="left: 69px;top: 219px;">
+
+        <img id="belt-bg" class="border" src="epic-bg.PNG" alt="" style="left: 66px;top: 274px;">
+        <img id="belt-border" class="border" src="T_UI_Button_Frame_002.PNG" alt="" style="left: 66px;top: 274px;">
+        <img id="belt" class="mod" src="empty-belt.PNG" alt="" style="left: 69px;top: 277px;">
+
+        <img id="pants-border" class="border" src="T_UI_Button_Frame_002.PNG" alt="" style="left: 66px;top: 330px;">
+        <img id="pants" class="mod" src="sil-pants.PNG" alt="" style="left: 69px;top: 332px;">
+
+        <img id="boots-bg" class="border" src="flawless-bg.PNG" alt="" style="left: 66px;top: 387px;">
+        <img id="boots-border" class="border" src="T_UI_Button_Frame_002.PNG" alt="" style="left: 66px;top: 387px;">
+        <img id="boots" class="mod" src="sil-boots.PNG" alt="" style="left: 69px;top: 390px;">
+
+        <img id="core-border" class="border" src="T_UI_Button_Frame_002.PNG" alt="" style="top: 104px;left: 174px;">
+        <img id="core" class="mod" src="dwarf-core-slot-empty.PNG" alt="" style="left: 178px;top: 107px;">
+
+        <img id="amulet-bg" class="border" src="flawless-bg.PNG" alt="" style="top: 104px;left: 282px;">
+        <img id="amulet-border" class="border" src="T_UI_Button_Frame_002.PNG" alt="" style="top: 104px;left: 282px;">
+        <img id="amulet" class="mod" src="sil-jewelery.PNG" alt="" style="left: 285px;top: 107px;">
+
+        <img id="pet-border" class="border" src="T_UI_Button_Frame_002.PNG" alt="" style="top: 160px;left: 282px;">
+        <img id="pet" class="mod" src="sil-pet.PNG" alt="" style="left: 285px;top: 163px;">
+
+        <img id="bracer-bg" class="border" src="flawless-bg.PNG" alt="" style="top: 218px;left: 282px;">
+        <img id="bracer-border" class="border" src="T_UI_Button_Frame_002.PNG" alt="" style="top: 218px;left: 282px;">
+        <img id="bracer" class="mod" src="sil-bracers.PNG" alt="" style="left: 285px;top: 219px;">
+
+        <img id="ring1-bg" class="border" src="flawless-bg.PNG" alt="" style="top: 274px;left: 282px;">
+        <img id="ring1-border" class="border" src="T_UI_Button_Frame_002.PNG" alt="" style="top: 274px;left: 282px;">
+        <img id="ring1" class="mod" src="sil-ring.PNG" alt="" style="left: 285px;top: 277px;">
+
+        <img id="ring2-bg" class="border" src="flawless-bg.PNG" alt="" style="top: 330px;left: 282px;">
+        <img id="ring2-border" class="border" src="T_UI_Button_Frame_002.PNG" alt="" style="top: 330px;left: 282px;">
+        <img id="ring2" class="mod" src="sil-ring.PNG" alt="" style="left: 285px;top: 332px;">
+
+        <img id="relic-bg" class="border" src="flawless-bg.PNG" alt="" style="top: 387px;left: 282px;">
+        <img id="relic-border" class="border" src="T_UI_Button_Frame_002.PNG" alt="" style="top: 387px;left: 282px;">
+        <img id="relic" class="mod" src="sil-crest.PNG" alt="" style="left: 285px;top: 390px;">
+
+        <img id="weapon-border" class="border" src="T_UI_Button_Frame_002.PNG" alt="" style="top: 386px;left: 174px;">
+        <img id="weapon" class="mod" src="" alt="" style="left: 177px;top: 389px;">
+
+        <img id="goblet-bg" class="border" src="epic-bg.PNG" alt="" style="top: 439px;left: 127px;">
+        <img id="goblet-border" class="border" src="T_UI_Button_Frame_002.PNG" alt="" style="top: 439px;left: 127px;">
+        <img id="goblet" class="mod" src="sil-goblet.PNG" alt="" style="left: 130px;top: 442px;">
+
+        <img id="horn-bg" class="border" src="epic-bg.PNG" alt="" style="top: 439px;left: 174px;">
+        <img id="horn-border" class="border" src="T_UI_Button_Frame_002.PNG" alt="" style="top: 439px;left: 174px;">
+        <img id="horn" class="mod" src="sil-horn.PNG" alt="" style="left: 177px;top: 442px;">
+
+        <img id="trinket-bg" class="border" src="epic-bg.PNG" alt="" style="top: 439px;left: 221px;">
+        <img id="trinket-border" class="border" src="T_UI_Button_Frame_002.PNG" alt="" style="top: 439px;left: 221px;">
+        <img id="trinket" class="mod" src="sil-trinket.PNG" alt="" style="left: 224px;top: 442px;">
+    </div>
+
+    <div id="followingdiv">
+
+    </div>
+</body>
+
+</html>
