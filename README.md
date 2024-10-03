@@ -1,7 +1,8 @@
 
 # Dwarven Realms Armory Twitch Extension
 
-This is a twitch extension for viwers to see the streamers current gear on dwarven realms fetched directly from API.
+This is a twitch extension for viewers to see the streamers current gear on dwarven realms fetched directly from API.
+All files are in the root of repo as Twitch does not allow for subfolders 
 
 
 
